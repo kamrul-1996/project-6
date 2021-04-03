@@ -133,6 +133,7 @@ img {
 
 .fixed-nav .navbar-brand img {
 	transform: skewX(0deg) !important;
+	width: 80%;
 }
 
 @keyframes navbar {
@@ -661,6 +662,9 @@ img {
 	font-size: 14px;
 	color: var(--bclr);
 }
+#testimonial .test-item .feedback-img img{
+	width: 100%;
+}
 
 #testimonial .test-item .feedback-pera {
 	font-family: var(--open);
@@ -795,7 +799,7 @@ img {
 #counter .counter-item p {
 	font-family: var(--oswald);
 	font-weight: 400;
-	font-size: 16px;
+	font-size: 14px;
 	text-transform: capitalize;
 }
 
@@ -910,7 +914,7 @@ img {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	right: -30px;
+	right: 10px;
 	font-size: 28px;
 	transition: all linear 0.4s;
 	-o-transition: all linear 0.4s;
@@ -1143,8 +1147,8 @@ footer .copy-right p a {
 /* footer css ends */
 
 .backtoTop {
-	width: 40px;
-	height: 40px;
+	width: 50px;
+	height: 50px;
 	border-radius: 50%;
 	background: #7c3e8e;
 	position: fixed;
@@ -1154,9 +1158,9 @@ footer .copy-right p a {
 }
 
 .backtoTop i {
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
 	font-size: 20px;
 	border-radius: 100%;
 	text-align: center;
@@ -1166,6 +1170,5 @@ footer .copy-right p a {
 }
 
 .backtoTop:hover i {
-	color: rgba(56, 226, 167, 0.69);
 	background: #e375b9;
 }

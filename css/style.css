@@ -662,9 +662,11 @@ img {
 	font-size: 14px;
 	color: var(--bclr);
 }
+/*
 #testimonial .test-item .feedback-img img{
 	width: 100%;
 }
+*/
 
 #testimonial .test-item .feedback-pera {
 	font-family: var(--open);
@@ -838,7 +840,7 @@ img {
 #classes .tab-content .tab-pane .all-class .class-item {
 	padding: 50px 0;
 	background: #f1f1f1;
-	width: 19.6%;
+	width: 19.6% !improtant;
 	margin-right: 5px;
 	margin-bottom: 5px;
 	transition: all linear 0.2s;
@@ -1073,7 +1075,7 @@ footer .footer-item .contact ul li {
 }
 
 footer .footer-item .contact ul li:nth-child(2) {
-	margin-bottom: 5px;
+	margin-bottom: 15px;
 }
 
 footer .footer-item .contact ul li a i {
@@ -1154,6 +1156,7 @@ footer .copy-right p a {
 	position: fixed;
 	bottom: 30px;
 	right: 40px;
+	z-index: 9999999;
 	display: none;
 }
 

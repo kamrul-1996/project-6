@@ -1,6 +1,6 @@
 
 /* extra small device responsive css start */
-@media(min-width: 300px) and (max-width: 575px) {
+@media(min-width: 300px) and (max-width: 576px) {
 
 	.navbar .navbar-brand {
 		transform: skewX(0deg);
@@ -88,13 +88,14 @@
 		margin-bottom: 30px;
 	}
 
-	#classes .nav-item {
-		width: 50%;
-		text-align: center;
-	}
+	#classes .days .nav .nav-item {
+	background: #f1f1f1;
+	padding: 0 !important;
+	width: 50%;
+}
 
 	#classes .tab-content .tab-pane .all-class .class-item {
-		width: 19.2%;
+		width: 24.03%;
 		transition: all linear 0.2s;
 		-o-transition: all linear 0.2s;
 		-ms-transition: all linear 0.2s;
@@ -149,6 +150,7 @@
 
 
 /* small device responsive css start */
+/**
 @media(min-width: 576px) and (max-width: 767px) {
 
 	.navbar .navbar-brand {

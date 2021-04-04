@@ -1,5 +1,5 @@
 /* extra small device responsive css start */
-@media(min-width: 100px) and (max-width: 576px) {
+@media(min-width: 100px) and (max-width: 575px) {
 
 	.navbar .navbar-brand {
 		transform: skewX(0deg);

@@ -149,7 +149,7 @@
 		margin-bottom: 20px;
 	}
 
-	.backtoTop {
+	#backtoTOP .backtoTop {
 		width: 30px;
 		height: 30px;
 		border-radius: 50%;
@@ -160,7 +160,7 @@
 		z-index: 9999999;
 		display: none;
 	}
-	.backtoTop i{
+	#backtoTOP .backtoTop i{
 		color: var(--bclr);
 	}
 

@@ -52,6 +52,7 @@ $(function () {
 		spinColor: ' var(--bclr)',
 		closeBackground: 'var(--bclr)',
 		overlayColor: 'var(--over8)',
+		autoplay: true,
 	});
 
 

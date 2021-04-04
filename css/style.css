@@ -1168,6 +1168,11 @@ footer .copy-right p a {
 	transform: rotate(270deg);
 	color: #e9e3ea;
 	cursor: pointer;
+	transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-webkit-transition: all linear 0.4s;
 }
 
 .backtoTop:hover i {

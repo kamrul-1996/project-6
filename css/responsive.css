@@ -132,6 +132,9 @@
 		font-size: 12px;
 
 	}
+	#market .market-item img{
+		width: 100%;
+	}
 
 	footer {
 		margin-top: 50px;

@@ -78,13 +78,16 @@ $(function () {
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					infinite: true,
 				}
 			},
 			{
-				breakpoint: 575,
+				breakpoint: 576,
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					infinite: true,
+					autoPlay: false,
 				}
 			},
 		]
@@ -124,6 +127,7 @@ $(function () {
 				settings: {
 					slidesToShow: 3,
 					slidesToScroll: 1,
+					infinite: true,
 				}
 			},
 			{
@@ -131,6 +135,7 @@ $(function () {
 				settings: {
 					slidesToShow: 1,
 					slidesToScroll: 1,
+					infinite: true,
 					prevArrow: false,
 					nextArrow:false,
 				}

@@ -1044,14 +1044,12 @@ footer .footer-item .flicker ul {
 	justify-content: space-between;
 	margin-bottom: 10px !important;
 }
-
-footer .footer-item .flicker ul li:nth-child(4) {
-	margin-right: 0;
-}
-
 footer .footer-item .flicker ul li {
 	margin-right: 10px;
 	overflow: hidden;
+}
+footer .footer-item .flicker ul li:nth-child(4) {
+	margin-right: 0;
 }
 
 footer .footer-item .flicker ul li img {

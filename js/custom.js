@@ -41,7 +41,7 @@ $(function () {
 	$('.banner-slider').slick({
 		arrows: false,
 		dots: true,
-		autoplay: false,
+		autoplay: true,
 		autoplaySpeed: 3000,
 	});
 
